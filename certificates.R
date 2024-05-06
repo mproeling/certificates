@@ -1,8 +1,8 @@
 rm(list = ls(all=TRUE))
 
 library(stringr)
-setwd("/Users/mro/Downloads/Certificates/nloutput/")
-setwd("/Users/mro/Downloads/Certificates/ukoutput/")
+setwd("../Certificates/nloutput/")
+setwd("../Certificates/ukoutput/")
 
 folders = c("lettera/",
             "letterb/",
